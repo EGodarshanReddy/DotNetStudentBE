@@ -1,0 +1,6 @@
+@EGR_APIs_DotNet_HostAddress = http://localhost:5254
+
+GET {{EGR_APIs_DotNet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
