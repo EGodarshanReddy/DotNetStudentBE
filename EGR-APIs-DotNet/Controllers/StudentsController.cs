@@ -33,6 +33,8 @@ namespace EGR_APIs_DotNet.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, Student updatedStudent)
         {
+            //hello
+
             if (id != updatedStudent.Id) return BadRequest();
             _context.Entry(updatedStudent).State = EntityState.Modified;
             await _context.SaveChangesAsync();

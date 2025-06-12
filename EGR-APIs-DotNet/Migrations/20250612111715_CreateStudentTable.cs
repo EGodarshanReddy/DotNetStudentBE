@@ -5,6 +5,8 @@
 namespace EGR_APIs_DotNet.Migrations
 {
     /// <inheritdoc />
+    /// 
+
     public partial class CreateStudentTable : Migration
     {
         /// <inheritdoc />
